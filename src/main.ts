@@ -18,9 +18,6 @@ const provider = new ethers.providers.JsonRpcProvider(JSON_RPC_PROVIDER_URL);
 const tokenContract = new ethers.Contract(BAR_TOKEN_ADDRESS!, BAR_ABI, provider);
 
 /**
- * @abstract Gets the block number of the block mined "X" years in the past 
- * Starting from the latest block timestamp instead of the actual current time for simplification
- * 
  * @returns the block id X years ago
  *  */ 
 async function getFirstBlockNumbers() : Promise<number>{
