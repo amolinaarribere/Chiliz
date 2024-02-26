@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf build && npx tsc -p tsconfig.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ethers": "^5.7.2",
+    "rimraf": "^5.0.5",
     "typescript": "^5.3.3"
   }
 }
