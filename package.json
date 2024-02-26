@@ -12,6 +12,10 @@
   "dependencies": {
     "ethers": "^5.7.2",
     "rimraf": "^5.0.5",
-    "typescript": "^5.3.3"
-  }
+    "typescript": "^5.3.3",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+		"@types/node": "^18.11.18"
+	}
 }
