@@ -5,17 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf build && npx tsc -p tsconfig.json"
+    "build": "rimraf build && npx tsc -p tsconfig.json",
+    "prettier": "prettier --config .prettierrc --write ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
+    "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
-    "typescript": "^5.3.3",
-    "dotenv": "^16.0.3"
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
-		"@types/node": "^18.11.18"
-	}
+    "@types/node": "^18.11.18"
+  }
 }
